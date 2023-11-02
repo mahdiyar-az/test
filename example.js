@@ -19,4 +19,7 @@ describe('add function', () => {
     });
 
     // Add more test cases as needed
+    t('should return 15 when adding 6 and 9', () => {
+        expect(add(6, 9)).to.equal(15);
+    });
 });
